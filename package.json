@@ -1,0 +1,11 @@
+{
+  "name": "spacechat-asset",
+  "version": "1.0.0",
+  "description": "project for statically.io",
+  "main": "index.js",
+  "scripts": {
+    "pub": "git add . && git commit -m '.' && git push"
+  },
+  "author": "",
+  "license": "ISC"
+}
