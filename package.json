@@ -1,11 +1,23 @@
 {
   "name": "spacechat-asset",
-  "version": "1.0.0",
-  "description": "project for statically.io",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "pub": "git add . && git commit -m '.' && git push"
+    "pub": "git add . && git commit -m '.' && git push",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.0.4"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18"
+  }
 }
